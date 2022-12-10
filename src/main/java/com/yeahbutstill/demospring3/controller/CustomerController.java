@@ -1,8 +1,8 @@
 package com.yeahbutstill.demospring3.controller;
 
+import com.yeahbutstill.demospring3.dao.CustomerDao;
+import com.yeahbutstill.demospring3.dto.CustomerRequest;
 import com.yeahbutstill.demospring3.entity.Customer;
-import com.yeahbutstill.demospring3.entity.CustomerRequest;
-import com.yeahbutstill.demospring3.repo.CustomerRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.util.List;
 public class CustomerController {
 
     @Autowired
-    private CustomerRepository customerRepo;
+    private CustomerDao customerRepo;
 
     @PostMapping("/add")
     public void addCustomer(@RequestBody CustomerRequest request) {

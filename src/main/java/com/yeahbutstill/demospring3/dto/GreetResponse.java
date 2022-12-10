@@ -1,4 +1,4 @@
-package com.yeahbutstill.demospring3.entity;
+package com.yeahbutstill.demospring3.dto;
 
 import java.util.Objects;
 

@@ -1,7 +1,7 @@
 package com.yeahbutstill.demospring3.controller;
 
-import com.yeahbutstill.demospring3.entity.GreetResponse;
-import com.yeahbutstill.demospring3.entity.GreetResponseV1;
+import com.yeahbutstill.demospring3.dto.GreetResponse;
+import com.yeahbutstill.demospring3.dto.GreetResponseV1;
 import com.yeahbutstill.demospring3.entity.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

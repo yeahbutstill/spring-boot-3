@@ -1,4 +1,6 @@
-package com.yeahbutstill.demospring3.entity;
+package com.yeahbutstill.demospring3.dto;
+
+import com.yeahbutstill.demospring3.entity.Person;
 
 import java.util.List;
 
